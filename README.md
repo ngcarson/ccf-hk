@@ -1,24 +1,7 @@
-# README
+# CCF HK Leadership Web Tools
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a web tool to assist disciplers in CCF HK in their mission to make Christ committed followers.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Developed by:				[Department of Information Technology ~ CCF - Hong Kong, Limited]
+Commissioned by:		[Von Nathaniel Consulta]
+Commissioned date:	[02 April 2017]
