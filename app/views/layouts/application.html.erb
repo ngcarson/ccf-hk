@@ -4,6 +4,9 @@
     <title>ccf HK Intranet</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' %>
+    <%= javascript_include_tag 'js/jquery.plugin' %>
+    <%= javascript_include_tag 'js/jquery.countdown' %>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -11,7 +14,7 @@
   <body>
     
     <%= render 'layouts/header' %>
-    
+
     <div class="container">
       <%= yield %>
     </div>

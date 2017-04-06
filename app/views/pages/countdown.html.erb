@@ -1,2 +1,11 @@
 <h1>Countdown Timer</h1>
-<p>This is a page for countdown timer on upcoming events."
+<!--<p>This is a page for countdown timer on upcoming events."-->
+<div class = "container">
+	<div class="countdown"></div>
+</div>
+
+<script>
+$('.countdown').countdown({
+	until: new Date(2018, 11-1, 25) // 25th November 2018 until
+});
+</script>
