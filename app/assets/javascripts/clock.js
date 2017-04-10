@@ -1,4 +1,8 @@
-function getTimeRemaining(endtime) {
+function myFunction() {
+    var x = document.getElementById("myLocalDate").value;
+    document.getElementById("demo").innerHTML = x;
+
+    function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
     var minutes = Math.floor((t / 1000 / 60) % 60);
@@ -37,12 +41,13 @@ function getTimeRemaining(endtime) {
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = 'April 16 2017 10:00:00 GMT+8';
+  var deadline = x;
+  
+  // Hard code specific datetime
+  //var deadline = 'April 16 2017 10:00:00 GMT+8';
+  
+  // Original sample code
   //var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+  
   initializeClock('clockdiv', deadline);
-
-/*  
-$(function () {
-
-});
-*/
+}

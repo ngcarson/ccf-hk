@@ -12,6 +12,10 @@ h1{
   margin: 40px 0px 20px;
 }
 
+#setdiv{
+	padding-bottom: 30px;
+}
+
 #clockdiv{
 	font-family: sans-serif;
 	color: #fff;
