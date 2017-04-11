@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 $font-family-sans-serif: 			'Lato', 'Helvetiva Neue', 'Helvetica', 'Arial', 'sans-serif';
-$navbar-default-bg: 					#3498db;
+$navbar-default-bg: 					#3EA4E8;
 $navbar-default-link-color: 	white;
-$brand-primary: 							#3498db;
+$brand-primary: 							#3EA4E8;
 
 @import 'bootstrap';
 
@@ -13,4 +13,8 @@ $brand-primary: 							#3498db;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.jumbotron {
+	background: rgba(255, 255, 255, .3);
 }
