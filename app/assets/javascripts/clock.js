@@ -43,7 +43,7 @@ function myFunction() {
   }
 
   var deadline = x;
-  
+
   // Hard code specific datetime
   //var deadline = 'April 11 2017 00:30:00 GMT+8';
   
