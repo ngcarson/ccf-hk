@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass'
 
+gem 'aws-sdk', '~> 2.9.6'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 
