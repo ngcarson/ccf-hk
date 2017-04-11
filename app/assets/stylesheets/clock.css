@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-  background: image-url('/assets/ccflogo.jpg');
+  /*background: image-url('/assets/ccflogo.jpg');*/
   color: #04a8b6;
   font-weight: 100;
   font-size: 50px;
