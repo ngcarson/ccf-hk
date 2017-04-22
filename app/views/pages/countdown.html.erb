@@ -1,31 +1,33 @@
 <img src="/images/ccflogo_white.png" align="center" style="width:270px;height:124px;">
 
-<h1 class="countdown">Worship service begins in</h1>
+<body class="count">
+  <h1 class="countdown">Worship service begins in</h1>
 
-<div id="clockdiv">
-  <div style="display: none;">
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
+  <div id="clockdiv">
+    <div style="display: none;">
+      <span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
   </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-</div>
 
-<div id="setdiv">
-  <input type="text" id="myLocalDate" value="2017-04-23T10:00:00">
-  <button onclick="myFunction()">Set time</button>
-  <p hidden id="demo"></p>
-</div>
+  <div id="setdiv">
+    <input type="text" id="myLocalDate" value="2017-04-23T10:00:00">
+    <button onclick="myFunction()">Set time</button>
+    <p hidden id="demo"></p>
+  </div>
+</body>
 
 <!--
 <input id="datepicker" type="text" >

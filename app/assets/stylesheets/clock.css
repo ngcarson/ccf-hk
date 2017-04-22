@@ -2,15 +2,15 @@ body{
 	text-align: center;
 	font-family: sans-serif;
   font-weight: 100;
-  background-image: url("background.jpg");
   background-size: cover;
+  background: #bdc3c7;
 }
 
-body.countdown{
+body.count{
   text-align: center;
-  /*background: #00ECB9;*/
   font-family: sans-serif;
   font-weight: 100;
+  background-image: url("background.jpg");
   background-size: cover;
 }
 
