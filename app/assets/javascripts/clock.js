@@ -45,7 +45,7 @@ function myFunction() {
   var deadline = x;
 
   // Hard code specific datetime
-  //var deadline = 'April 11 2017 00:30:00 GMT+8';
+  //var deadline = 'April 30 2017 10:00:00 GMT+8';
   
   // Original sample code
   //var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
