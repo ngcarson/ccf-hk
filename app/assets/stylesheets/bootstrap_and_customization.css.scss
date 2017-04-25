@@ -7,14 +7,31 @@ $brand-primary: 							#3EA4E8;
 
 @import 'bootstrap';
 
-.center {
-	text-align: center;
-}
-
 .navbar-brand {
 	font-weight: bold;
 }
 
 .jumbotron {
+	text-align: center;
 	background: rgba(255, 255, 255, .3);
+}
+
+h1.database{
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 40px 0px 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p.content_db{
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+
+body {
+	background: #bdc3c7;
 }
