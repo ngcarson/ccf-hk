@@ -14,7 +14,7 @@ module CcfTimer
   
   ActionMailer::Base.smtp_settings = {
 
-  	:address								=> 'smtp.gmail.com'
+  	:address								=> 'smtp.gmail.com',
   	:domain									=> 'mail.google.com',
   	:port										=> 587,
   	:user_name							=> "teamg426@gmail.com", #ENV['GMAIL_USERNAME'],
