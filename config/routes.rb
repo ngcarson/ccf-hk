@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, controllers: { registrations: "registrations" }
   root "pages#home"
   get "countdown" => "pages#countdown" # Creates countdown_path
   get "database" => "pages#database" # Creates database_path
